@@ -17,17 +17,17 @@ body, html {
     
 }
 
-.card{
+.image{
     display: flex;
     flex-direction: column;
 }
 
-.card > img {
+.image > img {
     height: 100%;
     width: 100%;
 }
 
-.first-line {
+.name {
     color: whitesmoke;
     font-family: Calibri;
     font-size: calc(12.42105px + .31579vw);;
@@ -35,7 +35,7 @@ body, html {
     text-transform: uppercase;
 }
 
-.second-line {
+.sub-name {
     color: #727070;
     margin: 0;
     font-family: Calibri;
