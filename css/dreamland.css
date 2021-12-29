@@ -73,14 +73,14 @@ padding:8rem 1rem 6rem;
 
 @media only screen and (max-width: 375px){
     .main-content{
-        width: 100%;
+        width: 110%;
         /* margin: 6px 0; */
     }
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 320px){
     .main-content{
-        width: 100%;
+        width: 125%;
         /* margin: 6px 0; */
     }
 }
