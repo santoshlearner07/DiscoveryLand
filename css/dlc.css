@@ -1,143 +1,44 @@
-*{box-sizing: border-box;}
-
-
-html, body{
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-
+body, html {
+    margin: 0;
+    padding: 0;
+   background-color: black;
+   
 }
-
-.nav{
-    background: black;
-    width: 100%;
+* {
+    box-sizing: border-box;
 }
-.ul{
-    margin: 0%;
-    padding: 0%;
-    list-style: none;
-}
-
-.li{
-    float: right;
-}
-
-.a{
-    width: 120px;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    color: white;
-    padding: 20px 10px;
-    font-family: Arial;
-}
-
-.header{
-    padding: 15px ;
-}
-
-.header-content{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
-    border:  0px solid white;
-}
-.logo-content{
-
-    display: flex;
-    width: 60%;
-    justify-content: flex-start;
-    background-color: gray
-    /* dnt chng gray to black untill logo is settled  */
-}
-
-.dlc-text{
-    font: normal bold 20px/25px;
-    font-family:sans-serif;
-    letter-spacing: 0px;
-    color: white;
-}
-
-.lc-text{
-     font: normal bold 20px/25px;
-    font-family:sans-serif;
-    letter-spacing: 0px;
-    color: white
-}
-
-
-
-.main-content{
+.main-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     width: 100%;
     grid-gap: 4.5rem 1rem;
     padding:8rem 1rem 6rem;
+    
 }
-
 
 .image{
     display: flex;
     flex-direction: column;
 }
 
-.image > img{
-    height: auto;
+.image > img {
+    height: 100%;
     width: 100%;
 }
 
-.name{
-    font: normal bold 10px/15px;
-    font-family:sans-serif;
-    font-size: larger;
-    letter-spacing: 0px;
-    color: white;
-    padding: 1px;
-    text-align: left;
+.name {
+    color: whitesmoke;
+    font-family: Calibri;
+    font-size: calc(12.42105px + .31579vw);;
+    margin-bottom: 0;
+    text-transform: uppercase;
 }
 
-.sub-name{
-    font: normal;
-    font-family:sans-serif;
-    font-size: medium;
-    letter-spacing: 0px;
-    color: white;
-}
-
-.footer{
-    display: flex;
-    width: 100%;
-padding: 10px solid green;
-width: 100%;
-
-}
-
-.footer-content{
-    display: flex;
-    width: 100%;
-padding: 10px solid green;
-    justify-content: center;
-
-width: 100%;
-}
-
-.foot-logo{
-/*     width: 50%; */
-width: 40%;
-height: 100px;
-    background-color: gray 
-    /* dnt chng gray to black untill logo is settled  */
-}
-.details{
-    font-family:sans-serif;
-    width: 80%;
-    letter-spacing: 0px;
-    color: white;
-    justify-content: right;
-    
+.sub-name {
+    color: #727070;
+    margin: 0;
+    font-family: Calibri;
+    font-size: 15px;
+    text-transform: capitalize;
 }
