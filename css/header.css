@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    margin: 4vh 5vw;
+    /* margin: 4vh 5vw; */
     justify-content: space-between;
     flex-wrap: wrap;
     
@@ -19,7 +19,7 @@
 }
 
 .logo-name{
-    padding-left: 10px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     font-family:Arial;
@@ -45,8 +45,8 @@
 
 .options div {
     list-style-type:none;
-    padding-right: 4vw;
-    font-size: 20px;
-    min-width: 10px;
+    padding-right: 40%;
+    font-size: 25px;
+    min-width: 50px;
     color: whitesmoke;
 }
