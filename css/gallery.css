@@ -22,19 +22,17 @@ html, body{
 .title{
     color: whitesmoke;
     text-transform: capitalize;
-    font-size: calc(20.66667px + 3.06667vw);
+    font-size: calc(2.6px + 3.06667vw);
     margin: 0 0 24vh 12vw;
 }
 
 
-/* container */
 .galleryImage{
 max-width: 100%;
 overflow: auto;
 }
 
 
-/* gallery */
 .image{
     /* margin: 5px; */
     float: left;
