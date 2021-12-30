@@ -1,12 +1,11 @@
 .header{
     display: flex;
     flex-direction: row;
-    margin: 5vh 20vw;
+    margin: 4vh 5vw;
     justify-content: space-between;
     flex-wrap: wrap;
     
 }
-
 
 .logo{
     display: flex;
@@ -18,7 +17,7 @@
 }
 
 .logo-name{
-    padding: 10px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     font-family:Arial;
@@ -29,6 +28,7 @@
     color: whitesmoke;
     text-align: center;
 }
+
 .logo-text2{
     text-transform: uppercase;
     font-size: 15px;
@@ -41,11 +41,10 @@
     display: flex;
     margin: 3vh 5vw ;
 }
-
 .options div {
     list-style-type:none;
-    padding-right: 40%;
-    font-size: 25px;
-    min-width: 50px;
+    padding-right: 4vw;
+    font-size: 20px;
+    min-width: 10px;
     color: whitesmoke;
 }
