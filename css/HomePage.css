@@ -1,0 +1,58 @@
+.section-1{
+    /* background-clip: url(../Assests/Lifestyle.jpeg) ; */
+    /* background-size: cover;  */
+    /* background-position: center; */
+    height: 100vh;
+    width: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+}
+
+.title{
+    color: black;
+    text-transform: capitalize;
+    font-size: calc(2.6px + 3.06667vw);
+    margin: 0 0 24vh 12vw;
+}
+
+.section-2{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: brown;
+    justify-content: center;
+}
+
+.left-part{
+    width: 45%;
+    background-color:blue;
+
+}
+.sec-2-img-1{
+    height: 300px;
+    width: 200px;
+}
+
+.right-part{
+    width: 45%;
+    background-color: yellow;
+}
+
+.section-5{
+    max-width: 100%;
+    overflow: auto;
+}
+
+.image{
+    /* margin: 5px; */
+    float: left;
+    width: 33.33%;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
