@@ -5,16 +5,38 @@ html, body{
     height: 100%;
 }
 
+.section-1{
+    /* using flex disrupts option */
+/* display: flex;  */
+    background-image: url(../Assests/Gallerymain.jpg);
+    /* background-clip:; */
+    width: 100%;
+    height: 87.5%;
+    object-fit:cover;
+}
+
+.main-title{
+    color: black;
+    font-size: calc(30px + 3.00vw);
+    /* vh vw use accordingly  */
+    margin: 28vh 0vw 10vh 15vw;
+}
+
 .title{
     color: black;
     text-transform: capitalize;
-    font-size: calc(2.6px + 3.06667vw);
+    font-size: calc(2.5px + 3.06667vw);
     margin: 12vh 10vw 5vh 6vw;
 }
+.title1{
+    font-size: calc(1.0px + 2.56667vw);
+    margin: -8vh 10vw 10vh 6vw;
+}
+
 .text{
     color: #777777;
     font-size: calc(1.0px + 1.5vw);
-    text-align: center;
+    text-align: left;
     margin: 12vh 10vw 50vh 6vw;
 }
 
@@ -45,6 +67,29 @@ html, body{
    margin: 12vh 10vw 0vh 6vw;
     width: 80%;
     height: 100%;
+}
+
+.section-4{
+    background-image: url(../Assests/HomePage/globe-usa.jpg);
+    width: 75.5%;
+    height: 131.4%;
+    object-fit: cover;
+    z-index: 3;
+}
+
+.black-box{
+    background-color: black;
+    height: 65%;
+    width: 100%;
+    margin: -80vh 0vw 0vh 55vw;
+    z-index: 2;
+}
+
+.sec-4-img-2{
+    width: 25%;
+    height: 65%;
+    z-index: 1;
+    margin: -90vh 0vw 60vh 77vw;
 }
 
 .section-5{
