@@ -3,7 +3,10 @@ html, body{
     margin: 0%;
     width: 100%;
     height: 100%;
+    /* background-color: black; */
 }
+
+/* section-1 */
 
 .section-1{
     /* using flex disrupts option */
@@ -40,6 +43,8 @@ html, body{
     margin: 12vh 10vw 50vh 6vw;
 }
 
+/* section-2 */
+
 .section-2{
     height: 100%;
     width: 100%;
@@ -48,6 +53,9 @@ html, body{
     display: flex;
     justify-content: center;
     background-image: url(../Assests/HomePage/S-2\ Background-Image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .left-part{
@@ -69,6 +77,29 @@ html, body{
     height: 100%;
 }
 
+/* section-3 */
+.section-3{
+    width: 100%;
+    height: 100%;
+    background-color: orchid;
+}
+
+.title2{
+    color: black;
+    text-transform: capitalize;
+    font-size: calc(2.5px + 3.06667vw);
+    margin: 15vh 10vw 5vh 11vw;
+}
+
+.title3{
+    font-size: calc(1.0px + 2.56667vw);
+    margin: -8vh 10vw 1vh 11vw;
+}
+
+
+
+/* section-4 */
+
 .section-4{
     background-image: url(../Assests/HomePage/globe-usa.jpg);
     width: 75.5%;
@@ -81,7 +112,7 @@ html, body{
     background-color: black;
     height: 65%;
     width: 100%;
-    margin: -80vh 0vw 0vh 55vw;
+    margin: -30vh 0vw 0vh 55vw;
     z-index: 2;
 }
 
@@ -92,6 +123,16 @@ html, body{
     margin: -90vh 0vw 60vh 77vw;
 }
 
+.text-4{
+    /* color: #777777; */
+    color: black;
+    font-size: 22px;
+    /* text-align: left; */
+    margin: 10vh 10vw 5vh 11vw;
+}
+
+/* section-5 */
+
 .section-5{
     width: 100%;
     /* overflow: auto; */
@@ -101,10 +142,24 @@ html, body{
 
 .image img{
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
-
+    z-index: 1;
 }
-.p{
+.name-tag{
     color: white;
+    z-index: 2;
+    margin: -55vh 0vw 0vh 13vw;
+    font-size: 350%;
+}
+
+/* .fal{
+    z-index: 3;
+} */
+/* .fa-arrow-circle-right{
+    z-index: 3;
+} */
+
+.fal fa-arrow-circle-right{
+    z-index: 3;
 }
