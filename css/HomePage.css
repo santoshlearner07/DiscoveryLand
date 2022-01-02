@@ -11,18 +11,38 @@ html, body{
 .section-1{
     /* using flex disrupts option */
 /* display: flex;  */
-    background-image: url(../Assests/Gallerymain.jpg);
+    /* background-image: url(../Assests/Gallerymain.jpg); */
     /* background-clip:; */
     width: 100%;
-    height: 87.5%;
-    object-fit:cover;
+    /* height: 87.5%; */
+    height: 100%;
+    /* object-fit:cover; */
+    /* z-index: 1; */
+}
+
+.video-1{
+    /*
+    margin: -16.5vh 0vw 0vh 0vw;
+     */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
 }
 
 .main-title{
-    color: black;
-    font-size: calc(30px + 3.00vw);
     /* vh vw use accordingly  */
-    margin: 28vh 0vw 10vh 15vw;
+    /* margin: -5vh 0vw -1vh 1vw;
+    z-index: 1; */
+    height: 100vh;
+    display: flex;
+    color: yellow;
+    font-size: calc(30px + 3.00vw);
+    z-index: 1;
 }
 
 .title{
@@ -39,7 +59,7 @@ html, body{
 .text{
     color: #777777;
     font-size: calc(1.0px + 1.5vw);
-    text-align: left;
+    /* text-align: center; */
     margin: 12vh 10vw 50vh 6vw;
 }
 
@@ -80,9 +100,64 @@ html, body{
 /* section-3 */
 .section-3{
     width: 100%;
-    height: 100%;
-    background-color: orchid;
+    /* height: 100%; */
+    /* background-color: orchid; */
+    /* overflow: hidden; */
 }
+
+.infinite-loop{
+    display: flex;
+    width: calc(250px * 25);
+    /*slide tack width = num of slides(25)*individualslide(250px) */
+    animation: scroll 40s linear infinite;
+}
+
+.slider{
+    width: 100%;
+    /* height: 100%; */
+     height: 800px;
+     display: flex;
+     align-items: center;
+     perspective: 100px;
+     /* padding: 15px;    */
+     /* margin: 3%; */
+}
+
+.abv-text{
+
+}
+.name-1{
+    margin: 50vh 0vw 0vh -22.5vw;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+.location{
+    margin: 0vh 0vw 19vh -22.5vw;
+    color: #FFFFFFBF;
+    font-size: 20px;
+    /* color: black; */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*12));
+    }
+}
+
+.slider img{
+    width: 500px;
+    height: 600px;
+    margin: 10vh 0.1vw ; 
+    padding: 10px;
+}
+
+.slider img:hover{
+    transform: translateZ(20px);
+}
+
 
 .title2{
     color: black;
@@ -96,16 +171,34 @@ html, body{
     margin: -8vh 10vw 1vh 11vw;
 }
 
-
-
 /* section-4 */
 
 .section-4{
     background-image: url(../Assests/HomePage/globe-usa.jpg);
     width: 75.5%;
-    height: 131.4%;
+    height: 123%;
     object-fit: cover;
+    margin: 0vh 0vw 0vh 0vw;
     z-index: 3;
+}
+
+.lands{
+    color: black;
+    text-transform: capitalize;
+    font-size: calc(3px + 3.06667vw);
+    /* margin: -20vh 10vw 5vh 11vw; */
+    margin: 10vh 0vw 5vh 10vw;
+}
+
+.discovery{
+    font-size: calc(1.0px + 2.56667vw);
+    margin: -7vh 8vw 0vh 10vw;
+}
+
+.map{
+    font-size: 30px;
+    color: black;
+    margin: 0vh 10vw ;
 }
 
 .black-box{
@@ -124,11 +217,10 @@ html, body{
 }
 
 .text-4{
-    /* color: #777777; */
-    color: black;
+    color: #777777;
     font-size: 22px;
     /* text-align: left; */
-    margin: 10vh 10vw 5vh 11vw;
+    margin: 5vh 10vw 5vh 11vw;
 }
 
 /* section-5 */

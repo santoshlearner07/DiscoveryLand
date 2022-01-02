@@ -1,7 +1,7 @@
 .header{
     display: flex;
     flex-direction: row;
-    margin: 4vh 5vw;
+    margin: 4vh 0vw 0vh 0vw;
     justify-content: space-between;
     flex-wrap: wrap;
     
@@ -12,12 +12,21 @@
     justify-content: center;
 }
 
-.logo > img {
-    width: 100%;
+/* .logo > img {
+    width: 50%;
+    height: 10%;
+    margin: 0vh 0vw 0vh 10vw;
+} */
+
+.imp{
+    width: 80%;
+    height: 50%;
+    margin: 5vh -10vw 0vh 10vw;
 }
 
 .logo-name{
     padding-left: 10px;
+    margin: 5vh 0vw 0vh 10vw;
     display: flex;
     flex-direction: column;
     font-family:Arial;
@@ -39,7 +48,7 @@
 .options{
     text-align: center;
     display: flex;
-    margin: 3vh 5vw ;
+    margin: 5vh 5vw ;
 }
 .options div {
     list-style-type:none;
