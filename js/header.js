@@ -36,8 +36,9 @@
 
 document.querySelector('#header').innerHTML = `
 <div class="header">
-<!-- <img class="imp" src="../Assests/shortcutIcon.png"> -->
+
 <div class="logo">
+<img class="imp" src="../Assests/shortcutIcon.png">
     <div class="logo-name">
         <span class="logo-text1">Discovery </span>
         <span class="logo-text2">land company</span>
