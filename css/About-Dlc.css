@@ -114,12 +114,12 @@ section-5
 }
 
 .fa-arrow-alt-circle-right{
-    font-size: 150px;
+    font-size: 100px;
     margin: -10vh 0vw 0vh 80vw;
 }
 
 .fa-arrow-alt-circle-left{
-    font-size: 150px;
+    font-size: 100px;
     margin: -10vh 0vw 0vh 0vw;
 }
 
@@ -168,4 +168,149 @@ section-5
     font-size: 1.3em;
     margin: 30vh 0vw -15vh -22vw;
     color: #FFFFFFBF;
+}
+
+/* 
+section-6
+*/
+
+.section-6{
+    width: 100%;
+    height: 100%;
+}
+
+.section-6 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+section-7
+*/
+
+.section-7{
+    width: 100%;
+    height: 150%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sec7-left-part{
+    width: 45%;
+}
+
+.sec7-left-part img{
+    margin: 20vh 0vw 0vh 5vw ;
+    width: 70%;
+}
+
+.sec7-right-part{
+    width: 45%;
+}
+
+.sec7-title{
+    font-size: 50px;
+    color: black;
+    margin: 35vh 0vw -34vh 0vw;
+}
+
+.sec7-para{
+    color: #777777;
+    font-size: 30px;
+    margin: 35vh 0vw 0vh 0vw;
+}
+
+.sec7-para img{
+    margin: 25vh 0vw;
+
+}
+
+/* 
+section-8
+*/
+
+.section-8{
+    width: 100%;
+    height: 120%;
+}
+
+.section-8 img{
+    width: 100%;
+    height: 100%;
+    margin: -10vh 0vw;
+}
+
+/* 
+section-9
+*/
+
+.section-9{
+    width: 100%;
+    height: 125%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-9-left-part{
+    width: 45%;
+}
+
+.sec-9-right-part{
+    width: 45%;
+}
+
+.sec9-title{
+    font-size: 50px;
+    color: black;
+    margin: 20vh 0vw 0vh 8vw;
+}
+
+.sec9-para{
+    font-size: 25px;
+    color: #777777;
+    margin: 2vh 0vw 0vh 8vw;
+}
+
+.sec-9-left-part img{
+    margin: 20vh 0vw;
+    width: 80%;
+}
+
+.sec-9-right-part img{
+    width: 75%;
+}
+
+/* 
+section-10
+*/
+
+.section-10{
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-10 img {
+    width: 100%;
+}
+
+.sec-10-title{
+    font-size: 60px;
+    margin: -50vh 0vw 0vh 40vw;
+    color: #FFFFFF;
+}
+
+.explore{
+    font-size: 50px;
+    margin: 0vh 43vw;
+}
+
+.fa-square{
+    font-size: 70px;
+    margin: 0vh 45vw ;
 }
