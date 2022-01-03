@@ -1,0 +1,292 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* section-1 */
+
+.section-1{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    position: relative;
+    z-index: 4;
+}
+
+.video-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.sec-1-title-1{
+    color: #FFFFFF;
+    font-size: 80px;
+    position: relative;
+    margin: 30vh 25vw;
+    z-index: 2;
+}
+
+.scroll{
+    color: #FFFFFFA6;
+    position: relative;
+    margin: -5vh 10vw;
+    font-size: 25px;
+    z-index: 2;
+}
+
+/* section-2 */
+
+.section-2{
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.sec-2-description{
+    color: #111111;
+    font-size: 60px;
+    margin: 10vh 20vw;
+    text-align: center;
+    justify-content: center;
+}
+
+/* section-3 */
+
+.section-3{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-3-leftpart{
+    width: 45%;
+}
+
+.sec-3-rightpart{
+    width: 45%;
+}
+
+.sec-3-title{
+    font-size: 50px;
+    color: black;
+    margin: 10vh 10vw;
+}
+
+.sec-3-para{
+    font-size: 28px;
+    color: #777777;
+    margin: 0vh 10vw;
+}
+
+.sec-3-rightpart img{
+    margin: -10vh 0vw;
+}
+
+/* section-4 */
+
+.section-4{
+    background-color: lightgrey;
+    width: 100%;
+    height: 130%;
+    margin: 0;
+    padding: 0;
+}
+
+.gray-box{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(223, 215, 215);
+    /* position: relative; */
+    margin: 10vh 10vw 20vh 10vw;
+    z-index: 1;
+}
+
+.section-4 img{
+    width: 70%;
+    height: 70%;
+    margin: -140vh 0vw 30vh 0vw;
+    z-index: 2;
+}
+
+.white-box{
+    width: 35%;
+    height: 60%;
+    background-color: white;
+    margin: -120vh 50vw;
+    position:relative;
+    z-index: 3;
+}
+
+.golf{
+    font-size: 40px;
+    margin: 60vh 0vw 0vh 60vw;
+    position: relative;
+    z-index: 4;
+}
+
+.sec-4-para{
+    font-size: 30px;
+    color: #777777;
+    position: relative;
+    margin: 5vh 0vw 0vh 53vw;
+    z-index: 4;
+}
+
+.explore{
+    font-size: 40px;
+    position: relative;
+    margin: 10vh 0vw 0vh 65vw;
+    z-index: 4;
+}
+
+/* section-5 */
+
+.section-5{
+    width: 100%;
+    background-color: lightgrey;
+    height: 120%;
+    margin: -30vh 0vw 0vh 0vw;
+}
+
+.section-5 img{
+    height: 85%;
+    width: 75%;
+    margin: -130vh 0vw 28vh 25vw;
+    position: relative;
+}
+
+.gray-box-1{
+    width: 70%;
+    height: 90%;
+    background-color: rgb(223, 215, 215);
+    /* position: relative; */
+    margin: 10vh 10vw 20vh 10vw;
+    z-index: 1;
+}
+
+.white-box-1{
+    width: 35%;
+    height: 60%;
+    background-color: white;
+    margin: -115vh 5vw;
+    position:relative;
+    z-index: 3;
+}
+
+.sec-5-title{
+    font-size: 50px;
+    margin: 50vh 0vw 0vh 10vw;
+    position: relative;
+    z-index: 4;
+}
+
+.sec-5-para{
+    font-size: 30px;
+    color: #777777;
+    position: relative;
+    margin: 5vh 0vw 0vh 10vw;
+    z-index: 4;
+    justify-content: center;
+}
+
+.explore-1{
+    font-size: 40px;
+    position: relative;
+    margin: 10vh 0vw 0vh 18vw;
+    z-index: 4;
+}
+
+/* section-6 */
+
+.section-6{
+    height: 100%;
+    width: 100%;
+    /* background-color: lightgrey; */
+    background-color: lightgrey;
+
+}
+
+.section-6 img{
+    width: 70%;
+    height: 80%;
+    margin: -100vh 0vw 12vh 0vw;
+    z-index: 2;
+}
+
+.gray-box-2{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(223, 215, 215);
+    /* position: relative; */
+    margin: 0vh 10vw 20vh 10vw;
+    z-index: 1;
+}
+
+.white-box-2{
+    width: 35%;
+    height: 60%;
+    background-color: white;
+    margin: -80vh 60vw;
+    position:relative;
+    z-index: 3;
+}
+
+.wellness{
+    font-size: 40px;
+    margin: 30vh 0vw 0vh 65vw;
+    position: relative;
+    z-index: 4;
+}
+
+.sec-6-para{
+    font-size: 30px;
+    color: #777777;
+    position: relative;
+    margin: 5vh 0vw 0vh 62vw;
+    z-index: 4;
+}
+
+.explore-2{
+    font-size: 40px;
+    position: relative;
+    margin: 5vh 0vw 0vh 75vw;
+    z-index: 4;
+}
+
+/* section-7 */
+
+.section-7{
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-7 img{
+    width: 100%;
+}
+
+.sec-7-title{
+    font-size: 60px;
+    margin: -50vh 0vw 0vh 40vw;
+    color: #FFFFFF;
+}
+
+.explore-3{
+    font-size: 50px;
+    margin: 0vh 43vw;
+}
