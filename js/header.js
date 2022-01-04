@@ -52,3 +52,14 @@ document.querySelector('#header').innerHTML = `
     <div>Press</div>
 </div>
 </div>`;
+
+// let p = new Promise(function(resolve,reject){
+
+// })
+
+// p.then
+
+// const sumNum = func(num1,num2,callback){
+//     const re
+// }
+
