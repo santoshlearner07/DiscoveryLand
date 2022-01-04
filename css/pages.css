@@ -87,59 +87,128 @@ html, body{
 
 .fa-arrow-left{
     font-size: 30px;
-    margin: 20vh 33vw;
+    margin: 20vh 40vw;
 }
 
 .fa-arrow-right{
     font-size: 30px;
-    margin: 0vh -27vw;
+    margin: 0vh -30vw;
 }
 
 .num{
     font-size: 30px;
-    margin: -23vh 36vw;
+    margin: -23vh 45vw;
     color: black;
 }
 
 /* section-3 */
 
 .section-3{
-    height: 130%;
+    height: 100%;
     width: 100%;
     margin: 0vh 0vw;
     padding: 0vh 0vw;
+    background-color: lightgrey;
 }
 
 .sec-3-title{
-    font-size: 40px;
+    font-size: 60px;
     margin: 0vh 0vw 0vh 10vw;
     padding: 10vh;
 }
 
 .box-1{
-    background-color: black;
     width: 35%;
     height: 30%;
     margin: 0vh 10vw;
+
+}
+
+.interview{
+    padding: 2vh;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.golf{
+     margin: 0vh 3vw 5vh 2vw;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .box-2{
-    background-color: blanchedalmond;
     width: 35%;
     height: 30%;
     margin: 5vh 10vw ;
+
+}
+
+.fairways{
+    padding: 2vh;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.sept{
+      margin: 0vh 3vw 5vh 2vw;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .box-3{
-    background-color: blue;
     width: 35%;
     height: 30%;
-    margin: -75vh 60vw
+    margin: -75vh 60vw;
+}
+
+.box-3-title{
+    padding: 2vh;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.times{
+      margin: 0vh 3vw 5vh 2vw;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .box-4{
-    background-color: brown;
     width: 35%;
     height: 30%;
     margin: 80vh 60vw;
+}
+
+.box-4-title{
+    padding: 2vh;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.bloom{
+    margin: 0vh 3vw 5vh 2vw;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.article{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0vh 10vw;
+}
+
+.num2{
+    margin: -80vh 0vw -3vh 45vw;
+    color: black;  
+    font-size: 35px; 
+}
+
+.fa-long-arrow-alt-right{
+    font-size: 30px;
+    margin: -100vh 0vw 0vh 40vw;
+}
+
+.fa-long-arrow-alt-left{
+    font-size: 30px;
+    margin: 0vh 0vw 0vh 12vw;
 }
